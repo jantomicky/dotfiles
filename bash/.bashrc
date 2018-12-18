@@ -9,7 +9,7 @@ export PATH="~/.config/composer/vendor/bin:$PATH"
 
 # Functions
 pimstead() {
-	( cd ~/vm/pimstead && vagrant $* )
+	( cd ~/vms/pimstead && vagrant $* )
 }
 
 colors() {
@@ -100,6 +100,7 @@ fi
 unset use_color safe_term match_lhs sh
 
 # Custom aliases
+alias g='git status'
 alias off='xfce4-session-logout --halt'
 alias shh='xfce4-session-logout --suspend'
 alias cp='cp -i'
