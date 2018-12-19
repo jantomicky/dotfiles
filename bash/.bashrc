@@ -103,6 +103,7 @@ unset use_color safe_term match_lhs sh
 alias g='git status'
 alias off='xfce4-session-logout --halt'
 alias shh='xfce4-session-logout --suspend'
+alias afk='xflock4'
 alias cp='cp -i'
 alias df='df -h'
 alias free='free -m'
