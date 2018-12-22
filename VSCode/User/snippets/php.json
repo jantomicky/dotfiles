@@ -1,0 +1,30 @@
+{
+
+	"The 'if' construct ": {
+		"prefix": "if",
+		"body": [
+			"if (${1:\\$something}) {",
+			"    $2",
+			"}"
+		],
+		"description": "basic 'if' conditional"
+	},
+
+	"Class public function": {
+		"prefix": "pf",
+		"body": [
+			"/**",
+			" * ${1:Description}",
+			" *",
+			" * @param $2",
+			" * @return $3",
+			" */",
+			"${4:public} function ${5:name}(${6:\\$parameters})",
+			"{",
+			"    ${7:\/\/ Code}",
+			"}"
+		],
+		"description": "Class public function"
+	}
+
+}

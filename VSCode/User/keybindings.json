@@ -1,0 +1,47 @@
+[
+    {
+        "key": "ctrl+up",
+        "command": "editor.foldLevel2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "editor.emmet.action.wrapWithAbbreviation",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "git.openChange"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]

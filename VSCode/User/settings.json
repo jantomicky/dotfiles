@@ -1,0 +1,67 @@
+{
+    "update.channel": "none",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorTheme": "Nord",
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 0.5,
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    // "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "search.collapseResults": "alwaysCollapse",
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
+    "editor.lineHeight": 24,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "breadcrumbs.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        ".php_cs": "php"
+    },
+    // "terminal.integrated.shell.windows": "C:\\Dev\\Git\\bin\\bash.exe",
+    // "git.path": "C:\\Dev\\Git\\bin\\git.exe",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "diffEditor.renderSideBySide": false,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "gitlens.keymap": "none",
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.defaultDateFormat": "YYYY-MM-DD",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1544454531439,
+    "php-cs-fixer.onsave": true,
+    "todohighlight.isCaseSensitive": false,
+    "todohighlight.include": [
+        "**/*.php",
+    ],
+    "todohighlight.keywords": [
+        "@todo", "@note", "TODO:", "NOTE:",
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "#D8DEE9",
+        "backgroundColor": "#5E81AC",
+        "isWholeLine": true,
+    },
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**",
+        "**/vendor/**",
+        "**/pimcore/**"
+    ],
+    "todohighlight.isEnable": true
+}
