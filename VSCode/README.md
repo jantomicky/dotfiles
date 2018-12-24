@@ -1,4 +1,4 @@
 # Visual Studio Code
 
-- `~/.config/Code - OSS`.
+- `~/.config/Code`.
 - Settings, Keybindings, Snippets.
