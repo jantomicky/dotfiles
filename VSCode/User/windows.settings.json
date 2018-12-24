@@ -1,12 +1,9 @@
 {
-    "update.channel": "none",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "workbench.colorTheme": "Nord",
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 0.5,
     "window.title": "${rootName}${separator}${activeEditorMedium}",
-    "window.titleBarStyle": "native",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
     "explorer.openEditors.visible": 0,
@@ -19,6 +16,8 @@
     "files.associations": {
         ".php_cs": "php"
     },
+    "terminal.integrated.shell.windows": "C:\\Dev\\Git\\bin\\bash.exe",
+    "git.path": "C:\\Dev\\Git\\bin\\git.exe",
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.enableSmartCommit": true,
