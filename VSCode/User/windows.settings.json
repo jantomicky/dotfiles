@@ -14,7 +14,8 @@
     "breadcrumbs.enabled": true,
     "files.trimTrailingWhitespace": true,
     "files.associations": {
-        ".php_cs": "php"
+        ".php_cs": "php",
+        "Vagrantfile": "ruby"
     },
     "terminal.integrated.shell.windows": "C:\\Dev\\Git\\bin\\bash.exe",
     "git.path": "C:\\Dev\\Git\\bin\\git.exe",

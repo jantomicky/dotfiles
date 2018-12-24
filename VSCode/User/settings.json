@@ -17,7 +17,8 @@
     "breadcrumbs.enabled": true,
     "files.trimTrailingWhitespace": true,
     "files.associations": {
-        ".php_cs": "php"
+        ".php_cs": "php",
+        "Vagrantfile": "ruby"
     },
     "git.confirmSync": false,
     "git.autofetch": true,
