@@ -100,7 +100,8 @@ fi
 unset use_color safe_term match_lhs sh
 
 # Custom aliases
-alias g='git status'
+alias glg='git log'
+alias gst='git status'
 alias off='xfce4-session-logout --halt'
 alias shh='xfce4-session-logout --suspend'
 alias afk='xflock4'
