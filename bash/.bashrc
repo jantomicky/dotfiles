@@ -87,7 +87,7 @@ if ${use_color} ; then
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
 	alias mkd='mkdir -pv'
-	alias l='ls -lhSa --color=auto'
+	alias lst='ls -lhSa --color=auto'
 else
 	if [[ ${EUID} == 0 ]] ; then
 		# Show root@ when we don't have colors
