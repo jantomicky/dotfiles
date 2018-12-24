@@ -12,9 +12,9 @@ vm() {
 	dirVM="$HOME/vms/vm$1"
 	if [ ! -d $dirVM ]; then
 		echo "Can't find the VM!"
-		#exit 
+	else
+		( cd $dirVM && vagrant $2 )
 	fi
-	( cd $dirVM && vagrant $2 )
 }
 
 colors() {
