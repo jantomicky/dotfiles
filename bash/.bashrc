@@ -8,8 +8,13 @@
 export PATH="~/.config/composer/vendor/bin:$PATH" 
 
 # Functions
-pimstead() {
-	( cd ~/vms/pimstead && vagrant $* )
+vm() {
+	dirVM="~/vms/vm$1"
+	if [ ! -d $dirVM ]; then
+		echo "Can't find the VM!"
+		exit 0
+	fi
+	( cd $dirVM && vagrant $2 )
 }
 
 colors() {
