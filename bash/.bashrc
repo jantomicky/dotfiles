@@ -9,10 +9,10 @@ export PATH="~/.config/composer/vendor/bin:$PATH"
 
 # Functions
 vm() {
-	dirVM="~/vms/vm$1"
+	dirVM="$HOME/vms/vm$1"
 	if [ ! -d $dirVM ]; then
 		echo "Can't find the VM!"
-		exit 0
+		#exit 
 	fi
 	( cd $dirVM && vagrant $2 )
 }
