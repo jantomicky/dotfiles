@@ -6,7 +6,6 @@
     "workbench.startupEditor": "none",
     "window.zoomLevel": 0.5,
     "window.title": "${rootName}${separator}${activeEditorMedium}",
-    "window.titleBarStyle": "native",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
     "explorer.openEditors.visible": 0,
