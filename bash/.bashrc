@@ -13,7 +13,7 @@ vm() {
 	if [ ! -d $dirVM ]; then
 		echo "Can't find the VM!"
 	else
-		( cd $dirVM && vagrant $2 )
+		( cd $dirVM && vagrant "${@:2}" )
 	fi
 }
 
