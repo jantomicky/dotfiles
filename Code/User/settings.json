@@ -32,7 +32,7 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.lastDownload": 1544454531439,
     "php-cs-fixer.onsave": true,
     "todohighlight.isCaseSensitive": false,
