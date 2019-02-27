@@ -9,11 +9,11 @@ export PATH="~/.config/composer/vendor/bin:$PATH"
 
 # Functions
 vm() {
-	dirVM="$HOME/vms/vm$1"
-	if [ ! -d $dirVM ]; then
+	vm="$HOME/vm/$1"
+	if [ ! -d $vm ]; then
 		echo "Can't find the VM!"
 	else
-		( cd $dirVM && vagrant "${@:2}" )
+		( cd $vm && vagrant "${@:2}" )
 	fi
 }
 
@@ -91,8 +91,6 @@ if ${use_color} ; then
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
-	alias mkd='mkdir -pv'
-	alias lst='ls -lhSa --color=auto'
 else
 	if [[ ${EUID} == 0 ]] ; then
 		# Show root@ when we don't have colors
@@ -105,8 +103,8 @@ fi
 unset use_color safe_term match_lhs sh
 
 # Custom aliases
-alias glg='git log'
-alias gst='git status'
+alias mkd='mkdir -pv'
+alias lst='ls -lAh'
 alias off='xfce4-session-logout --halt'
 alias shh='xfce4-session-logout --suspend'
 alias afk='xflock4'
