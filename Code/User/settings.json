@@ -5,9 +5,14 @@
     "workbench.colorTheme": "Nord",
     "workbench.startupEditor": "none",
     "window.zoomLevel": 0.5,
-    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "window.title": "${folderPath}${separator}${activeEditorMedium}",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+    },
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
     "editor.lineHeight": 24,
@@ -33,7 +38,7 @@
         "suppressShowKeyBindingsNotice": true
     },
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1544454531439,
+    "php-cs-fixer.lastDownload": 1551226470379,
     "php-cs-fixer.onsave": true,
     "todohighlight.isCaseSensitive": false,
     "todohighlight.include": [
