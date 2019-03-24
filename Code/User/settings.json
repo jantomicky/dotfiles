@@ -1,10 +1,10 @@
 {
-    "update.channel": "none",
+    "update.mode": "none",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Ayu Adapta",
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0.75,
     "window.title": "${folderPath}${separator}${activeEditorMedium}",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
@@ -12,9 +12,13 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/vendor": true,
+        "**/cache": true,
+        "**/tmp": true
     },
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.lineHeight": 24,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
@@ -38,7 +42,7 @@
         "suppressShowKeyBindingsNotice": true
     },
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1551226470379,
+    "php-cs-fixer.lastDownload": 1553372863244,
     "php-cs-fixer.onsave": true,
     "todohighlight.isCaseSensitive": false,
     "todohighlight.include": [
