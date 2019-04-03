@@ -32,7 +32,7 @@
             "editor.findMatchBackground": "#36A3D9",
             "editor.findMatchHighlightBackground": "#36A3D9",
             "debugExceptionWidget.border": "#222D32"
-        },
+        }
     },
     "workbench.startupEditor": "none",
     "window.title": "${rootName}${separator}${activeEditorMedium}",
