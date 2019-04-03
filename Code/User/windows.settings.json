@@ -1,13 +1,47 @@
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Ayu Adapta",
+    "workbench.colorCustomizations": {
+        "[Ayu Adapta]": {
+            "list.highlightForeground": "#FFD580",
+            "list.activeSelectionBackground": "#5CCFE6",
+            "list.activeSelectionForeground": "#181A1F",
+            "titleBar.activeBackground": "#222D32",
+            "titleBar.inactiveBackground": "#222D32",
+            "pickerGroup.border": "#222D32",
+            "editorWidget.border": "#303b44",
+            "editorCursor.foreground": "#FFD580",
+            "editorBracketMatch.border": "#5CCFE6",
+            "editorHoverWidget.border": "#222D32",
+            "editorOverviewRuler.border": "#222D32",
+            "editorSuggestWidget.border": "#222D32",
+            "editorGroupHeader.tabsBorder": "#222D32",
+            "peekView.border": "#222D32",
+            "editorGroup.border": "#222D32",
+            "tab.border": "#222D32",
+            "tab.activeBorder": "#222D32",
+            "tab.unfocusedActiveBorder": "#222D32",
+            "panel.border": "#222D32",
+            "statusBar.border": "#222D32",
+            "activityBar.border": "#222D32",
+            "sideBar.border": "#222D32",
+            "titleBar.border": "#222D32",
+            "editor.selectionBackground": "#303b44",
+            "editor.selectionHighlightBackground": "#36A3D9",
+            "editor.findMatchBackground": "#36A3D9",
+            "editor.findMatchHighlightBackground": "#36A3D9",
+            "debugExceptionWidget.border": "#222D32"
+        },
+    },
     "workbench.startupEditor": "none",
     "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.lineHeight": 24,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
@@ -33,8 +67,7 @@
         "suppressShowKeyBindingsNotice": true
     },
     "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1544454531439,
-    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.lastDownload": 1554106887246,
     "todohighlight.isCaseSensitive": false,
     "todohighlight.include": [
         "**/*.php"
@@ -43,8 +76,8 @@
         "@todo", "@note", "todo:", "note:"
     ],
     "todohighlight.defaultStyle": {
-        "color": "#D8DEE9",
-        "backgroundColor": "#5E81AC",
+        "color": "#D9D7CE",
+        "backgroundColor": "#36A3D9",
         "isWholeLine": true
     },
     "todohighlight.exclude": [
