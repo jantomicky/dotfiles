@@ -5,9 +5,9 @@
     "workbench.colorTheme": "Ayu Adapta",
     "workbench.colorCustomizations": {
         "[Ayu Adapta]": {
-            "list.highlightForeground": "#FFD580",
-            "list.activeSelectionBackground": "#5CCFE6",
-            "list.activeSelectionForeground": "#181A1F",
+            "list.highlightForeground": "#5CCFE6",
+            "list.activeSelectionBackground": "#36A3D9",
+            "list.activeSelectionForeground": "#FAFAFA",
             "titleBar.activeBackground": "#222D32",
             "titleBar.inactiveBackground": "#222D32",
             "pickerGroup.border": "#222D32",
@@ -21,6 +21,11 @@
             "peekView.border": "#222D32",
             "editorGroup.border": "#222D32",
             "tab.border": "#222D32",
+            "button.background": "#36A3D9",
+            "button.hoverBackground": "#5CCFE6",
+            "extensionButton.prominentBackground": "#36A3D9",
+            "extensionButton.prominentHoverBackground": "#5CCFE6",
+            "button.foreground": "#FAFAFA",
             "tab.activeBorder": "#222D32",
             "tab.unfocusedActiveBorder": "#222D32",
             "panel.border": "#222D32",
@@ -87,7 +92,7 @@
         "@todo", "@note", "todo:", "note:"
     ],
     "todohighlight.defaultStyle": {
-        "color": "#D9D7CE",
+        "color": "#FAFAFA",
         "backgroundColor": "#36A3D9",
         "isWholeLine": true
     },
