@@ -40,7 +40,8 @@
             "editor.selectionHighlightBackground": "#36A3D9",
             "editor.findMatchBackground": "#36A3D9",
             "editor.findMatchHighlightBackground": "#36A3D9",
-            "debugExceptionWidget.border": "#222D32"
+            "debugExceptionWidget.border": "#222D32",
+            "terminal.ansiBrightGreen": "#BAE67E"
         }
     },
     "workbench.startupEditor": "none",
