@@ -5,6 +5,8 @@
     "workbench.colorTheme": "Ayu Adapta",
     "workbench.colorCustomizations": {
         "[Ayu Adapta]": {
+            "list.focusForeground": "#FAFAFA",
+            "list.focusBackground": "#303B44",
             "list.highlightForeground": "#5CCFE6",
             "list.activeSelectionBackground": "#36A3D9",
             "list.activeSelectionForeground": "#FAFAFA",
