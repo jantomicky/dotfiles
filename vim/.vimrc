@@ -8,9 +8,11 @@ endif
 " Plugins.
 call plug#begin('~/.vim/plugged')
 
-Plug 'arcticicestudio/nord-vim'
+Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 
 " Configuration.
-colorscheme nord
+set termguicolors
+let ayucolor="mirage"
+colorscheme ayu
