@@ -1,3 +1,3 @@
 # Dotfiles
 
-My personalized configuration files (for Manjaro 18.0.0 Illyria) and related notes for various applications/services.
+My personalized configuration files (for Manjaro Illyria) and related notes for various applications/services.
