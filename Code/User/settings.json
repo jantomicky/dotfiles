@@ -38,7 +38,7 @@
             "activityBar.border": "#222D32",
             "sideBar.border": "#222D32",
             "titleBar.border": "#222D32",
-            "editor.selectionBackground": "#303B44",
+            "editor.selectionBackground": "#4678CC",
             "editor.selectionHighlightBackground": "#36A3D9",
             "editor.findMatchBackground": "#36A3D9",
             "editor.findMatchHighlightBackground": "#36A3D9",
@@ -87,6 +87,7 @@
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.lastDownload": 1554308377672,
     "php-cs-fixer.onsave": true,
+    "python.formatting.provider": "black",
     "todohighlight.isCaseSensitive": false,
     "todohighlight.include": [
         "**/*.php"
