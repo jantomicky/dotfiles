@@ -54,6 +54,7 @@
     "explorer.confirmDragAndDrop": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.cursorBlinking": "solid",
     "editor.lineHeight": 24,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
