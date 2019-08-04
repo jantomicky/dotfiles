@@ -17,3 +17,4 @@
 - yay: bitwarden-bin, vscodium-bin, skypeforlinux-stable-bin, nordnm, dropbox.
 - Remove: empathy, hexchat, microsoft-office-online-jak.
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium.
+- Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`, restart the NFS daemon `sudo systemctl restart nfsdcld`.
