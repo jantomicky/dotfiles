@@ -1,18 +1,27 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "workbench.settings.enableNaturalLanguageSearch": false,
+    "update.mode": "none",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "simple-icons",
     "workbench.colorTheme": "Neon Night",
     "workbench.colorCustomizations": {
         "[Neon Night]": {
             "terminal.ansiWhite": "#FFFFFF",
-            "editorSuggestWidget.selectedBackground": "#1B1E26"
+            "editorSuggestWidget.selectedBackground": "#DD92F633",
+            "list.focusBackground": "#DD92F633"
         }
     },
-    "workbench.startupEditor": "none",
-    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "window.zoomLevel": 0.75,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+        "**/cache": true,
+        "**/tmp": true
+    },
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
     "editor.fontFamily": "Fira Code",
@@ -23,14 +32,11 @@
     "editor.tabCompletion": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "breadcrumbs.enabled": true,
     "files.trimTrailingWhitespace": true,
     "files.associations": {
         ".php_cs": "php",
         "Vagrantfile": "ruby"
     },
-    "terminal.integrated.shell.windows": "C:\\Dev\\Git\\bin\\bash.exe",
-    "git.path": "C:\\Dev\\Git\\bin\\git.exe",
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.enableSmartCommit": true,
@@ -41,12 +47,8 @@
     "gitlens.defaultDateFormat": "YYYY-MM-DD",
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
     "php.suggest.basic": false,
-    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1564384644567,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.DS_Store/**",
@@ -73,21 +75,10 @@
     "todohighlight.exclude": [
         "**/node_modules/**",
         "**/bower_components/**",
-        "**/dist/**",
-        "**/build/**",
-        "**/.vscode/**",
-        "**/.github/**",
-        "**/_output/**",
-        "**/*.min.*",
-        "**/*.map",
-        "**/.next/**",
         "**/vendor/**",
-        "**/pimcore/**"
+        "**/pimcore/**",
+        "**/*.min.*",
+        "**/*.map"
     ],
-    "todohighlight.isEnable": true,
-    "window.zoomLevel": 0,
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
-    "workbench.iconTheme": "simple-icons"
+    "todohighlight.isEnable": true
 }

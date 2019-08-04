@@ -1,27 +1,18 @@
 {
-    "update.mode": "none",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "workbench.startupEditor": "none",
+    "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.colorTheme": "Neon Night",
     "workbench.colorCustomizations": {
         "[Neon Night]": {
             "terminal.ansiWhite": "#FFFFFF",
-            "editorSuggestWidget.selectedBackground": "#DD92F633",
-            "list.focusBackground": "#DD92F633"
+            "editorSuggestWidget.selectedBackground": "#1B1E26"
         }
     },
-    "window.zoomLevel": 0.8,
-    "window.title": "${folderPath}${separator}${activeEditorMedium}",
+    "workbench.startupEditor": "none",
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
     "window.menuBarVisibility": "toggle",
     "search.collapseResults": "alwaysCollapse",
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/vendor": true,
-        "**/cache": true,
-        "**/tmp": true
-    },
     "explorer.openEditors.visible": 0,
     "explorer.confirmDragAndDrop": false,
     "editor.fontFamily": "Fira Code",
@@ -30,12 +21,16 @@
     "editor.lineHeight": 24,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
     "breadcrumbs.enabled": true,
     "files.trimTrailingWhitespace": true,
     "files.associations": {
         ".php_cs": "php",
         "Vagrantfile": "ruby"
     },
+    "terminal.integrated.shell.windows": "C:\\Dev\\Git\\bin\\bash.exe",
+    "git.path": "C:\\Dev\\Git\\bin\\git.exe",
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.enableSmartCommit": true,
@@ -49,12 +44,9 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1564823476771,
-    "php-cs-fixer.onsave": true,
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
+    "php.suggest.basic": false,
+    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1564384644567,
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.DS_Store/**",
@@ -92,5 +84,10 @@
         "**/vendor/**",
         "**/pimcore/**"
     ],
-    "todohighlight.isEnable": true
+    "todohighlight.isEnable": true,
+    "window.zoomLevel": 0,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "workbench.iconTheme": "simple-icons"
 }

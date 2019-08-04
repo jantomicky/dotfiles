@@ -1,4 +1,4 @@
-# Visual Studio Code
+# Visual Studio Code (Windows)
 
-- `~/.config/Code`
+- `{/VSCode/Installation/Folder}/data/user-data`
 - Settings, Keybindings, Snippets.
