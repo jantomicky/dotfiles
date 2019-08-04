@@ -2,52 +2,15 @@
     "update.mode": "none",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "workbench.colorTheme": "Ayu Adapta",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Neon Night",
     "workbench.colorCustomizations": {
-        "[Ayu Adapta]": {
-            "list.focusForeground": "#FFFFFF",
-            "list.focusBackground": "#303B44",
-            "list.highlightForeground": "#5CCFE6",
-            "list.activeSelectionBackground": "#3D4752",
-            "list.activeSelectionForeground": "#FFFFFF",
-            "titleBar.activeBackground": "#222D32",
-            "titleBar.inactiveBackground": "#222D32",
-            "pickerGroup.border": "#222D32",
-            "editorWidget.border": "#303B44",
-            "editorCursor.foreground": "#D9D7CE",
-            "editorBracketMatch.border": "#5CCFE6",
-            "editorHoverWidget.border": "#222D32",
-            "editorOverviewRuler.border": "#222D32",
-            "editorSuggestWidget.border": "#222D32",
-            "editorGroupHeader.tabsBorder": "#29353B",
-            "peekView.border": "#222D32",
-            "editorGroup.border": "#222D32",
-            "tab.border": "#222D32",
-            "button.background": "#36A3D9",
-            "button.hoverBackground": "#5CCFE6",
-            "extensionButton.prominentBackground": "#36A3D9",
-            "extensionButton.prominentHoverBackground": "#5CCFE6",
-            "button.foreground": "#FFFFFF",
-            "tab.activeBorder": "#29353B",
-            "tab.unfocusedActiveBorder": "#222D32",
-            "panel.border": "#222D32",
-            "statusBar.border": "#222D32",
-            "statusBar.debuggingBackground": "#36A3D9",
-            "statusBar.debuggingForeground": "#353535",
-            "debugToolBar.background": "#303B44",
-            "activityBar.border": "#222D32",
-            "sideBar.border": "#222D32",
-            "sideBar.foreground": "#D9D7CE",
-            "titleBar.border": "#222D32",
-            "editor.selectionBackground": "#3D4752",
-            "editor.selectionHighlightBackground": "#5C6773",
-            "editor.findMatchBackground": "#5C6773",
-            "editor.findMatchHighlightBackground": "#5C6773",
-            "debugExceptionWidget.border": "#222D32",
-            "terminal.ansiBrightGreen": "#BAE67E"
+        "[Neon Night]": {
+            "terminal.ansiWhite": "#FFFFFF",
+            "editorSuggestWidget.selectedBackground": "#DD92F633",
+            "list.focusBackground": "#DD92F633"
         }
     },
-    "workbench.startupEditor": "none",
     "window.zoomLevel": 0.8,
     "window.title": "${folderPath}${separator}${activeEditorMedium}",
     "window.menuBarVisibility": "toggle",
@@ -87,9 +50,22 @@
         "suppressShowKeyBindingsNotice": true
     },
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1555880692578,
+    "php-cs-fixer.lastDownload": 1564823476771,
     "php-cs-fixer.onsave": true,
-    "python.formatting.provider": "black",
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**"
+    ],
+    "emmet.includeLanguages": {
+        "twig": "html",
+        "latte": "html"
+    },
     "todohighlight.isCaseSensitive": false,
     "todohighlight.include": [
         "**/*.php"
@@ -99,7 +75,7 @@
     ],
     "todohighlight.defaultStyle": {
         "color": "#FFFFFF",
-        "backgroundColor": "#36A3D9",
+        "backgroundColor": "#DD92F6",
         "isWholeLine": true
     },
     "todohighlight.exclude": [
