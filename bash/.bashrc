@@ -104,7 +104,7 @@ unset use_color safe_term match_lhs sh
 
 # Custom aliases
 alias mkd='mkdir -pv'
-alias lst='ls -lAh'
+alias lst='ls -lhA'
 alias off='xfce4-session-logout --halt'
 alias shh='xfce4-session-logout --suspend'
 alias afk='xflock4'
@@ -154,5 +154,3 @@ ex ()
   fi
 }
 
-# Better yaourt colors
-export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
