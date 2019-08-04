@@ -1,4 +1,10 @@
 # bash
 
-- `~/.bashrc`
-- The default Manjaro 18.0.0 Illyria _.bashrc_ plus custom aliases.
+- `~/.bash_aliases`
+- Add the `.bash_aliases` execution to the `.bashrc` for this to work:
+```
+# Functions
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
+```
