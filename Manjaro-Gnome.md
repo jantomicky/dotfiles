@@ -15,6 +15,6 @@
 - Set up SSH keys.
 - pacman: yay, gvim, thunderbird, base-devel, gitg, virtualbox, vagrant, otf-fira-code, htop.
 - yay: bitwarden-bin, vscodium-bin, skypeforlinux-stable-bin, nordnm, dropbox.
-- Remove: empathy, hexchat, microsoft-office-online-jak.
+- Remove: empathy, hexchat, microsoft-office-online-jak, hplip.
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium.
 - Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`, restart the NFS daemon `sudo systemctl restart nfsdcld`.
