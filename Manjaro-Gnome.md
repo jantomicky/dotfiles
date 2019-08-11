@@ -13,7 +13,7 @@
 - Devices, keyboard: set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
 - Pacman: allow AUR access.
 - Set up SSH keys.
-- pacman: yay, gvim, thunderbird, base-devel, gitg, virtualbox, vagrant, otf-fira-code, htop.
+- pacman: yay, gvim, thunderbird, base-devel, gitg, php, virtualbox, vagrant, otf-fira-code, htop.
 - yay: bitwarden-bin, vscodium-bin, skypeforlinux-stable-bin, nordnm, dropbox.
 - Remove: empathy, hexchat, microsoft-office-online-jak, hplip.
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium.
