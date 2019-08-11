@@ -1,15 +1,8 @@
 {
+    "sync.gist": "2cf2f2f5a9f62a84fdab52697aef47b8",
     "update.mode": "none",
     "workbench.startupEditor": "none",
-    "workbench.iconTheme": "simple-icons",
-    "workbench.colorTheme": "Neon Night",
-    "workbench.colorCustomizations": {
-        "[Neon Night]": {
-            "terminal.ansiWhite": "#FFFFFF",
-            "editorSuggestWidget.selectedBackground": "#DD92F633",
-            "list.focusBackground": "#DD92F633"
-        }
-    },
+    "workbench.colorTheme": "One Monokai",
     "workbench.settings.enableNaturalLanguageSearch": false,
     "window.zoomLevel": 0.75,
     "window.title": "${activeEditorLong}${separator}${rootName}",
@@ -49,6 +42,7 @@
     "gitlens.hovers.currentLine.over": "line",
     "php.suggest.basic": false,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1565349583170,
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.DS_Store/**",
@@ -68,8 +62,8 @@
         "@todo", "@note", "todo:", "note:"
     ],
     "todohighlight.defaultStyle": {
-        "color": "#FFFFFF",
-        "backgroundColor": "#DD92F6",
+        "color": "#F8FAFD",
+        "backgroundColor": "#314365",
         "isWholeLine": true
     },
     "todohighlight.exclude": [
