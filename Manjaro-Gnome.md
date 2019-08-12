@@ -13,8 +13,8 @@
 - Devices, keyboard: set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
 - Pacman: allow AUR access.
 - Set up SSH keys.
-- pacman: yay, gvim, thunderbird, base-devel, gitg, php, virtualbox, vagrant, otf-fira-code, htop.
+- pacman: yay, gvim, thunderbird, base-devel, gitg, php, virtualbox, vagrant, otf-fira-code, python-pylint, htop.
 - yay: bitwarden-bin, vscodium-bin, skypeforlinux-stable-bin, nordnm, dropbox.
-- Remove: empathy, hexchat, microsoft-office-online-jak, hplip.
+- Remove: empathy, hexchat, microsoft-office-online-jak, hplip, transmission-gtk.
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium.
 - Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`, restart the NFS daemon `sudo systemctl restart nfsdcld`.
