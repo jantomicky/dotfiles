@@ -43,6 +43,9 @@
     "php.suggest.basic": false,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.lastDownload": 1565349583170,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.DS_Store/**",

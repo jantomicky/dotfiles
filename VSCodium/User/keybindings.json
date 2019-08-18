@@ -1,31 +1,31 @@
 [
     {
-        "key": "ctrl+alt+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+alt+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+alt+left",
+        "key": "ctrl+meta+left",
         "command": "editor.emmet.action.removeTag",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+right",
+        "key": "ctrl+meta+right",
         "command": "editor.emmet.action.wrapWithAbbreviation",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+d",
+        "key": "ctrl+meta+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+meta+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+meta+d",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+alt+c",
+        "key": "ctrl+meta+c",
         "command": "git.openChange",
         "when": "editorTextFocus"
     },
