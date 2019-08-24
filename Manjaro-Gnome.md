@@ -19,4 +19,4 @@
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium, Xorg.
 - Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`.
 - In Firefox, set `layers.acceleration.force-enabled` to `true` in `about:config`.
-- (Laptop) Install and set up [libinput-gestures](https://github.com/bulletmark/libinput-gestures).
+- (Laptop, pacman) Install and set up [libinput-gestures](https://github.com/bulletmark/libinput-gestures).
