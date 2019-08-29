@@ -4,7 +4,7 @@
 	"hiddenSettings": {},
 	"expandStatus": {},
 	"displayHiddenSettings": false,
-	"whiteList": "^http://.+\\.(l|p|h)",
+	"whiteList": "^http://.+\\.(l|p|h),propelo.cz",
 	"sessionWhiteList": "",
 	"blackList": "",
 	"blockMode": "fake",
