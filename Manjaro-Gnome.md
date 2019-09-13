@@ -9,7 +9,7 @@
 - Openweather: allow, set up.
 - Places status indicator: allow.
 - Settings: English keyboard layout, turn off automatic screen locking, allow time to be set automatically, turn on natural scrolling for trackpad.
-- Terminal: rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, set background color to #13191C and turn on bright colors.
+- Terminal: rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, set background color to #1B2224 and turn on bright colors.
 - Devices, keyboard: set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
 - Pacman: allow AUR access.
 - Set up SSH keys.
