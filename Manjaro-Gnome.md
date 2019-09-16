@@ -17,6 +17,6 @@
 - yay: bitwarden-bin, vscodium-bin, skypeforlinux-stable-bin, nordnm, dropbox.
 - Remove: empathy, hexchat, microsoft-office-online-jak, hplip, transmission-gtk.
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium, Xorg.
-- Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`.
+- Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf` and restart the NFS server `sudo systemctl restart nfs-server.service`.
 - In Firefox, set `layers.acceleration.force-enabled` to `true` in `about:config`.
 - (Laptop, pacman) Install and set up [libinput-gestures](https://github.com/bulletmark/libinput-gestures).
