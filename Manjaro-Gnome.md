@@ -15,7 +15,7 @@
 - Set up SSH keys.
 - pacman: yay, gvim, thunderbird, base-devel, gitg, php, dbeaver, virtualbox, vagrant, otf-fira-code, python-pip, python-pylint, vlc, gimp, htop, chromium, youtube-dl, neofetch.
 - yay: bitwarden-bin, vscodium-bin, skypeforlinux-stable-bin, nordnm, dropbox, kid3-cli, flexibee, ledger-live-bin.
-- Remove: empathy, hexchat, microsoft-office-online-jak, hplip, transmission-gtk.
+- Remove: empathy, hexchat, microsoft-office-online-jak, hplip, transmission-gtk, manjaro-documentation-en.
 - Set up from dotfiles: dnsmasq (NetworkManager), nordnm, vscodium, Xorg.
 - Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf` and restart the NFS server `sudo systemctl restart nfs-server.service`.
 - In Firefox, set `layers.acceleration.force-enabled` to `true` in `about:config`.
