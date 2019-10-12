@@ -8,7 +8,7 @@
 - Dash to Dock: move to the bottom, disable 100% panel mode, number of open windows indicator to default.
 - Openweather: allow, set up.
 - Places status indicator: allow.
-- Settings: English keyboard layout, turn off automatic screen locking, allow time to be set automatically, turn on natural scrolling for trackpad.
+- Settings: English keyboard layout, turn off automatic screen locking, allow time to be set automatically, set up "search" indexing, turn on natural scrolling for trackpad.
 - Terminal: rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, set background color to #1B2224 and turn on bright colors.
 - Devices, keyboard: set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
 - Pacman: allow AUR access.
