@@ -3,8 +3,8 @@
 - Czech settings, swap (without hibernation), encrypted drive (english keyboard for the passcode).
 - Update and reboot.
 - Change background(s).
-- Gnome Tweaks: center new windows.
-- Arc Menu: hide Manjaro icon, text to default.
+- Gnome Tweaks: disable hot corner, center new windows.
+- Arc Menu: disable.
 - Dash to Dock: move to the bottom, disable 100% panel mode, number of open windows indicator to default.
 - Openweather: allow, set up.
 - Places status indicator: allow.
@@ -20,3 +20,4 @@
 - Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf` and restart the NFS server `sudo systemctl restart nfs-server.service`.
 - In Firefox, set `layers.acceleration.force-enabled` to `true` in `about:config`.
 - (Laptop, pacman) Install and set up [libinput-gestures](https://github.com/bulletmark/libinput-gestures).
+
