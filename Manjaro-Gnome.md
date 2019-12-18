@@ -15,6 +15,7 @@
 
 - "Top bar": disable hot corner.
 - "Windows": center new windows.
+- "Fonts": set to 90% (X250), 110% (desktop).
 - "Arc menu": disable.
 - "Dash to dock": move to the bottom, disable panel mode, set number of open windows indicator to default, set icon sizes (28px for X250, 40px for desktop), turn on automatic hiding (disable "pressure" trigger & set display delay to 0).
 - "Openweather": allow, set up.
@@ -23,7 +24,7 @@
 ## Gnome Shell
 
 - "Settings": add english keyboard layout, turn off automatic screen locking, allow time to be set automatically, set up search indexing, review privacy settings, on laptops, turn on natural trackpad scrolling.
-- "Terminal": rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, set background color to #1B2224 and turn on bright colors.
+- "Terminal": rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, set background color to #1B2224 and turn on bright colors. Set row and column counts to 82:22 (X250), 100:30 (desktop).
 - "Devices > keyboard": set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
 - "Pamac": allow AUR access.
 
