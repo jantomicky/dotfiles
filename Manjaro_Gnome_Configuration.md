@@ -30,7 +30,7 @@
 
 ## Packages
 
-- "pacman": `sudo pacman -S yay gvim thunderbird base-devel gitg php dbeaver virtualbox vagrant otf-fira-code python-pip python-pylint gimp htop chromium youtube-dl neofetch caprine discord drawing libappindicator-gtk3`.
+- "pacman": `sudo pacman -S yay gvim thunderbird base-devel gitg php dbeaver virtualbox vagrant otf-fira-code python-pip python-pylint gimp htop chromium youtube-dl neofetch caprine discord drawing libappindicator-gtk3 lm_sensors`.
 - "pacman (laptop)": `sudo pacman -S libinput-gestures`
 - "pacman (remove)": `sudo pacman -Rns empathy hexchat microsoft-office-online-jak hplip transmission-gtk manjaro-documentation-en`
 - "yay": `yay -S bitwarden-bin vscodium-bin insomnia skypeforlinux-stable-bin nordnm dropbox kid3-cli flexibee ledger-live-bin`
