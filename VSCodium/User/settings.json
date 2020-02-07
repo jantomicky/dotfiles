@@ -1,22 +1,69 @@
 {
     "sync.gist": "2cf2f2f5a9f62a84fdab52697aef47b8",
     "update.mode": "none",
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "One Monokai",
-    "workbench.settings.enableNaturalLanguageSearch": false,
     "window.zoomLevel": 0.75,
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "window.menuBarVisibility": "toggle",
-    "search.collapseResults": "alwaysCollapse",
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/vendor": true,
-        "**/cache": true,
-        "**/tmp": true
+    "workbench.startupEditor": "none",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.colorTheme": "Gatito Theme",
+    "workbench.colorCustomizations": {
+        "[Gatito Theme]": {
+            "activityBar.activeBorder": "#30373A",
+            "activityBar.activeBackground": "#30373A",
+            "editor.background": "#1D2325",
+            "editorGroup.emptyBackground": "#1D2325",
+            "debugToolBar.background": "#1D2325",
+            "progressBar.background": "#5986B3",
+            "quickInput.background": "#242B2E",
+            "statusBar.debuggingBackground": "#A94348",
+            "editorWhitespace.foreground": "#30373A",
+            "selection.background": "#5986B3",
+            "editor.selectionBackground": "#5986b360",
+            "diffEditor.insertedTextBorder": "#FFFFFF00",
+            "diffEditor.removedTextBorder": "#FFFFFF00",
+            "minimap.findMatchHighlight": "#5986B3",
+            "minimap.selectionHighlight": "#FFFFFF10",
+            "terminal.ansiWhite": "#FFFFFF",
+            "terminal.ansiBlack": "#242B2E"
+        }
     },
-    "explorer.openEditors.visible": 0,
-    "explorer.confirmDragAndDrop": false,
+    "editor.tokenColorCustomizations": {
+        "[Gatito Theme]": {
+            "textMateRules": [
+                {
+                    "scope": "comment, punctuation.definition.comment",
+                    "settings": {
+                        "foreground": "#7F7F7F9A"
+                    }
+                },
+                {
+                    "scope": "variable.language",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter",
+                    "settings": {
+                        "foreground": "#E15A60"
+                    }
+                },
+                {
+                    "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
+                    "settings": {
+                        "foreground": "#BB80B3"
+                    }
+                },
+                {
+                    "scope": "constant.numeric",
+                    "settings": {
+                        "foreground": "#D4D4D4"
+                    }
+                }
+            ]
+        },
+    },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.cursorBlinking": "solid",
@@ -25,6 +72,18 @@
     "editor.tabCompletion": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
+    "editor.formatOnSaveTimeout": 5000,
+    "search.collapseResults": "alwaysCollapse",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+        "**/cache": true,
+        "**/tmp": true,
+        "**/*.min.*": true
+    },
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "files.associations": {
         ".php_cs": "php",
@@ -42,7 +101,7 @@
     "gitlens.hovers.currentLine.over": "line",
     "php.suggest.basic": false,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1565349583170,
+    "php-cs-fixer.lastDownload": 1580463757960,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
@@ -53,20 +112,35 @@
         "**/bower_components/**",
         "**/vendor/**/{Test,test,Tests,tests}/**"
     ],
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
     "emmet.includeLanguages": {
         "twig": "html",
         "latte": "html"
+    },
+    "beautify.language": {
+        "html": [
+            "html",
+            "twig",
+            "latte"
+        ]
     },
     "todohighlight.isCaseSensitive": false,
     "todohighlight.include": [
         "**/*.php"
     ],
     "todohighlight.keywords": [
-        "@todo", "@note", "todo:", "note:"
+        "@todo",
+        "@note",
+        "@fix"
     ],
     "todohighlight.defaultStyle": {
-        "color": "#F8FAFD",
-        "backgroundColor": "#314365",
+        "color": "#FFFFFF",
+        "backgroundColor": "#A94348",
         "isWholeLine": true
     },
     "todohighlight.exclude": [
