@@ -1,0 +1,3 @@
+# Caprine
+
+- `~/.config/Caprine`
