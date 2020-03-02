@@ -17,7 +17,7 @@
 - "Windows": center new windows.
 - "Fonts": set to 90% (X250), 110% (desktop).
 - "Arc menu": disable.
-- "Dash to dock": move to the bottom, disable panel mode, set number of open windows indicator to default, set icon sizes (28px for X250, 40px for desktop), turn on automatic hiding (disable "pressure" trigger & set display delay to 0).
+- "Dash to dock": move to the bottom, disable panel mode, set number of open windows indicator to default, set icon sizes (28px for X250, 32px for E580, 48px for PC), turn on automatic hiding (disable "pressure" trigger & set display delay to 0).
 - "Openweather": allow, set up.
 - "Places status indicator": allow.
 
