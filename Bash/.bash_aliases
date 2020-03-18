@@ -1,7 +1,8 @@
 # Aliases
 
-alias lst='ls -lha'
+alias lst='ls -lah'
 alias mkd='mkdir -pv'
+alias gfs='git fetch && git status'
 
 # Functions
 
