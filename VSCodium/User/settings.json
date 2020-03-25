@@ -2,7 +2,7 @@
     "sync.gist": "2cf2f2f5a9f62a84fdab52697aef47b8",
     "update.mode": "none",
     "window.zoomLevel": 0.75,
-    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "window.title": "${rootName}${separator}${activeEditorShort}${separator}${activeFolderMedium}",
     "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "none",
     "workbench.settings.enableNaturalLanguageSearch": false,
@@ -93,6 +93,7 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
     "merge-conflict.autoNavigateNextConflict.enabled": true,
     "gitlens.keymap": "none",
     "gitlens.defaultDateStyle": "absolute",
@@ -101,7 +102,7 @@
     "gitlens.hovers.currentLine.over": "line",
     "php.suggest.basic": false,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1580463757960,
+    "php-cs-fixer.lastDownload": 1584872929657,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
