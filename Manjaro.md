@@ -17,14 +17,14 @@
 - "Windows": center new windows.
 - "Fonts": set to 90% (X250), 110% (desktop).
 - "Arc menu": disable.
-- "Dash to dock": move to the bottom, disable panel mode, set number of open windows indicator to default, set icon sizes (28px for X250, 32px for E580, 48px for PC), turn on automatic hiding (disable "pressure" trigger & set display delay to 0).
+- "Dash to dock": move to the bottom, disable panel mode, set number of open windows indicator to default, set icon sizes (28px for X250, 32px for E580, 48px for PC), turn on automatic hiding (disable "pressure" trigger & set display delay to 0), set auto-transparency to 75% and 50%.
 - "Openweather": allow, set up.
 - "Places status indicator": allow.
 
 ## Gnome Shell
 
 - "Settings": add english keyboard layout, turn off automatic screen locking, allow time to be set automatically, set up search indexing, review privacy settings, on laptops, turn on natural trackpad scrolling.
-- "Terminal": rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, set background color to #1B2224 and turn on bright colors. Set row and column counts to 82:22 (X250), 100:30 (desktop), 90:25 (E580).
+- "Terminal": rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, allow system theme colors and turn on bright colors for bold fonts. Set row and column counts to 82:22 (X250), 100:30 (desktop), 90:25 (E580).
 - "Devices > keyboard": set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
 - "Pamac": allow AUR access.
 
