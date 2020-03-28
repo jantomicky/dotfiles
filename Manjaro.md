@@ -1,4 +1,4 @@
-# Post-installation configuration of Manjaro Gnome
+# Manjaro Gnome
 
 ## Installation
 
@@ -8,34 +8,37 @@
 - Update packages & the kernel.
 - Change background(s).
 - Set up SSH keys.
-- Allow UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`.
+- Enable UDP (`udp=y`) in the NFS configuration file at `/etc/nfs.conf`.
 - Reboot.
 
 ## Gnome Tweak Tools
 
-- "Top bar": disable hot corner.
-- "Windows": center new windows.
-- "Fonts": set to 90% (X250), 110% (desktop).
-- "Arc menu": disable.
-- "Dash to dock": move to the bottom, disable panel mode, set number of open windows indicator to default, set icon sizes (28px for X250, 32px for E580, 48px for PC), turn on automatic hiding (disable "pressure" trigger & set display delay to 0), set auto-transparency to 75% and 50%.
-- "Openweather": allow, set up.
-- "Places status indicator": allow.
+- "Fonts": set to 0.9 (X250), 1.1 (PC).
+- "Top bar": disable hot corner, enable week day.
+- "Windows": new windows to centre.
+
+## Gnome Extensions
+
+- "Arc menu": disable (might not be already turned off by now).
+- "Dash to dock": position on the left, disabled panel mode, open windows indicator style to default, icons – 28px (X250), 40px (E580), 56px (PC), automatic hiding on (disable "pressure" trigger, values to 0.1, 0.4, 0.1), auto-transparency to 90% / 50%.
+- "Openweather": enable.
+- "Places status indicator": enable.
 
 ## Gnome Shell
 
-- "Settings": add english keyboard layout, turn off automatic screen locking, allow time to be set automatically, set up search indexing, review privacy settings, on laptops, turn on natural trackpad scrolling.
-- "Terminal": rename default profile to "Manjaro", duplicate it to "Custom" and set that as default. Turn off sound, turn off cursor blinking, hide the scrollbar, allow system theme colors and turn on bright colors for bold fonts. Set row and column counts to 82:22 (X250), 100:30 (desktop), 90:25 (E580).
-- "Devices > keyboard": set up shortcuts: Terminál|gnome-terminal|CTRL+Enter, Zavřít okno|Shift+Super+Q
-- "Pamac": allow AUR access.
+- "Settings": add english keyboard layout, turn off automatic screen locking, enable time to be set automatically, set up search indexing, review privacy settings, turn on natural trackpad scrolling on laptops.
+- "Terminal": import settings from the dconf export file in dotfiles.
+- "Devices, keyboard": shortcuts – Terminál|gnome-terminal|Super+Enter, Zavřít okno|Shift+Super+Q
+- "Pamac": enable AUR access.
 
 ## Packages
 
 - "pacman": `sudo pacman -S yay gvim caffeine-ng base-devel gitg php dbeaver virtualbox vagrant otf-fira-code python-pip python-pylint gimp htop chromium youtube-dl neofetch caprine discord drawing libappindicator-gtk3 lm_sensors`.
-- "pacman (laptop)": `sudo pacman -S libinput-gestures`
+- "pacman (laptops)": `sudo pacman -S libinput-gestures`
 - "pacman (remove)": `sudo pacman -Rns empathy hexchat microsoft-office-online-jak hplip transmission-gtk manjaro-documentation-en`
 - "yay": `yay -S bitwarden-bin vscodium-bin insomnia skypeforlinux-stable-bin nordnm dropbox kid3-cli flexibee ledger-live-bin`
 
-## Finishing
+## Finish
 
-- Settings from dotfiles: dnsmasq (NetworkManager), nordnm, Xorg, libinput-gestures.
+- Setup the rest of the software using the dotfiles.
 - "Firefox (about:config)": set `layers.acceleration.force-enabled` to `true`.
