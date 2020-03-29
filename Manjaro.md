@@ -20,7 +20,7 @@
 ## Gnome Extensions
 
 - "Arc menu": disable (might not be already turned off by now).
-- "Dash to dock": position on the left, disabled panel mode, open windows indicator style to default, icons – 28px (X250), 40px (E580), 56px (PC), automatic hiding on (disable "pressure" trigger, values to 0.1, 0.4, 0.1), auto-transparency to 90% / 50%.
+- "Dash to dock": position on the left, disabled panel mode, open windows indicator style to default, icons – 32px (X250), 40px (E580), 56px (PC), automatic hiding on (disable "pressure" trigger, values to 0.1, 0.4, 0.1), auto-transparency to 90% / 50%.
 - "Openweather": enable.
 - "Places status indicator": enable.
 
