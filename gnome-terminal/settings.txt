@@ -7,11 +7,12 @@ list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'b624f4ec-95d1-4493-b052-1e22496ee
 
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
+background-color='rgb(69,70,73)'
 bold-is-bright=true
 cursor-blink-mode='off'
 default-size-columns=100
 default-size-rows=30
-palette=['rgb(34,43,46)', 'rgb(231,76,60)', 'rgb(46,179,152)', 'rgb(236,64,122)', 'rgb(52,152,219)', 'rgb(191,137,237)', 'rgb(46,179,152)', 'rgb(255,255,255)', 'rgb(233,254,248)', 'rgb(231,76,60)', 'rgb(46,179,152)', 'rgb(236,64,122)', 'rgb(52,152,219)', 'rgb(191,137,237)', 'rgb(46,179,152)', 'rgb(255,255,255)']
+palette=['rgb(34,43,46)', 'rgb(191,61,49)', 'rgb(36,140,118)', 'rgb(196,55,104)', 'rgb(43,125,179)', 'rgb(158,114,196)', 'rgb(36,140,118)', 'rgb(233,254,248)', 'rgb(233,254,248)', 'rgb(231,76,60)', 'rgb(46,179,152)', 'rgb(236,64,122)', 'rgb(52,152,219)', 'rgb(191,137,237)', 'rgb(46,179,152)', 'rgb(233,254,248)']
 scrollbar-policy='never'
 use-theme-colors=true
 visible-name='Custom'
