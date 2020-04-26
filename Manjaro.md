@@ -35,7 +35,7 @@
 
 - "pacman": `sudo pacman -S yay gvim caffeine-ng base-devel gitg php dbeaver virtualbox vagrant otf-fira-code python-pip python-pylint gimp htop chromium youtube-dl neofetch caprine discord drawing libappindicator-gtk3 lm_sensors`.
 - "pacman (laptops)": `sudo pacman -S libinput-gestures`
-- "pacman (remove)": `sudo pacman -Rns empathy hexchat microsoft-office-online-jak hplip transmission-gtk manjaro-documentation-en`
+- "pacman (remove)": `sudo pacman -Rns empathy hexchat microsoft-office-online-jak hplip transmission-gtk manjaro-documentation-en bauh manjaro-gnome-vanilla`
 - "yay": `yay -S bitwarden-bin vscodium-bin insomnia skypeforlinux-stable-bin nordnm dropbox kid3-cli flexibee ledger-live-bin`
 
 ## Finish
