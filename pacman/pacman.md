@@ -1,0 +1,3 @@
+# pacman
+
+- `/etc/pacman.conf`
