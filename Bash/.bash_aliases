@@ -2,7 +2,7 @@
 
 alias lst='ls -lah'
 alias mkd='mkdir -pv'
-alias gfs='git fetch && git status'
+alias gfs='git fetch --prune && git status'
 
 # Functions
 

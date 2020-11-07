@@ -2,21 +2,7 @@
  * In Caprine, Ctrl+R to reload your changes.
  */
 
-:root {
-	--base: #1B2224;
-	--base-ninety: rgba(255, 255, 255, 0.9);
-	--base-seventy-five: rgba(255, 255, 255, 0.75);
-	--base-seventy: rgba(255, 255, 255, 0.7);
-	--base-fifty: rgba(255, 255, 255, 0.5);
-	--base-fourty: rgba(255, 255, 255, 0.4);
-	--base-thirty: rgba(255, 255, 255, 0.3);
-	--base-twenty: rgba(255, 255, 255, 0.2);
-	--base-five: rgba(255, 255, 255, 0.05);
-	--base-ten: rgba(255, 255, 255, 0.1);
-	--base-nine: rgba(255, 255, 255, 0.09);
+ :root {
 	--container-color: #1B2224;
-	--container-dark-color: #1B2224;
 	--list-header-color: #1B2224;
-	--blue: #1C6CCB;
-	--selected-conversation-background: #1C6CCB; 
 }

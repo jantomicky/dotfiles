@@ -2,14 +2,9 @@
 	"followSystemAppearance": true,
 	"darkMode": true,
 	"privateMode": false,
+	"showPrivateModePrompt": true,
 	"vibrancy": "none",
 	"zoomFactor": 1.1,
-	"lastWindowState": {
-		"x": 269,
-		"y": 513,
-		"width": 1101,
-		"height": 1163
-	},
 	"menuBarMode": false,
 	"showDockIcon": true,
 	"showTrayIcon": false,
@@ -17,11 +12,11 @@
 	"showUnreadBadge": true,
 	"showMessageButtons": true,
 	"launchMinimized": false,
-	"flashWindowOnMessage": false,
+	"flashWindowOnMessage": true,
 	"notificationMessagePreview": true,
 	"block": {
-		"chatSeen": true,
-		"typingIndicator": true,
+		"chatSeen": false,
+		"typingIndicator": false,
 		"deliveryReceipt": false
 	},
 	"emojiStyle": "facebook-3-0",
@@ -29,8 +24,11 @@
 	"sidebar": "default",
 	"autoHideMenuBar": false,
 	"notificationsMuted": false,
+	"callRingtoneMuted": false,
 	"hardwareAcceleration": true,
 	"quitOnWindowClose": true,
 	"keepMeSignedIn": true,
-	"autoplayVideos": false
+	"autoplayVideos": false,
+	"isSpellCheckerEnabled": false,
+	"spellCheckerLanguages": []
 }
