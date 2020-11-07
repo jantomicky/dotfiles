@@ -1,9 +1,8 @@
 {
     "sync.gist": "2cf2f2f5a9f62a84fdab52697aef47b8",
     "update.mode": "none",
-    "window.zoomLevel": 0.75,
+    "window.zoomLevel": 0.2,
     "window.title": "${rootName}${separator}${activeEditorShort}${separator}${activeFolderMedium}",
-    "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "none",
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.colorTheme": "Gatito Theme",
@@ -66,13 +65,11 @@
     },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.cursorBlinking": "solid",
     "editor.lineHeight": 24,
     "editor.renderWhitespace": "all",
     "editor.tabCompletion": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "editor.formatOnSaveTimeout": 5000,
     "search.collapseResults": "alwaysCollapse",
     "search.exclude": {
         "**/node_modules": true,
@@ -101,56 +98,14 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "php.suggest.basic": false,
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1584872929657,
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.DS_Store/**",
         "**/node_modules/**",
-        "**/bower_components/**",
-        "**/vendor/**/{Test,test,Tests,tests}/**"
+        "**/bower_components/**"
     ],
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
     "emmet.includeLanguages": {
         "twig": "html",
         "latte": "html"
-    },
-    "beautify.language": {
-        "html": [
-            "html",
-            "twig",
-            "latte"
-        ]
-    },
-    "todohighlight.isCaseSensitive": false,
-    "todohighlight.include": [
-        "**/*.php"
-    ],
-    "todohighlight.keywords": [
-        "@todo",
-        "@note",
-        "@fix"
-    ],
-    "todohighlight.defaultStyle": {
-        "color": "#FFFFFF",
-        "backgroundColor": "#A94348",
-        "isWholeLine": true
-    },
-    "todohighlight.exclude": [
-        "**/node_modules/**",
-        "**/bower_components/**",
-        "**/vendor/**",
-        "**/pimcore/**",
-        "**/*.min.*",
-        "**/*.map"
-    ],
-    "todohighlight.isEnable": true
+    }
 }
